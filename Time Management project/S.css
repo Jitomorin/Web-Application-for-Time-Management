@@ -1,0 +1,175 @@
+body{
+    --color-primary: rgba(237, 199, 183,0.8);
+    --color-primary-dark: rgba(238, 226, 220);
+    --color-secondary: rgba(186, 178, 181);
+    --color-one:rgba(18, 60, 105) ;
+    --color-two: rgba(172, 59, 97);
+
+    background-color: var(--color-primary);
+    background-image: url("res/pexels-ithalu-dominguez-907485.jpg");
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font: 500 1rem 'Quicksand', sans-serif;
+}
+
+.collection{
+    align-items: center;
+    display: flex;
+    /* background-color: var(--color-primary-dark); */
+    width: auto;
+    border-radius: 4rem;
+    justify-content: center;
+    height: auto;
+    transform:translateY(10rem);
+}
+.card{
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-size: 4rem;
+    padding: 4rem;
+    margin: 3rem;
+    background-color: var(--color-primary);
+    box-shadow: 0 20px 20px rgb(0, 0, 0, 0.3), 0px 0px 50px rgb(172, 172, 172);
+    /* border: solid var(--color-primary-dark); */
+    /* border-radius: 4rem; */
+    color: var(--color-two);
+    
+}
+.form__link{
+    font-size: 2rem;
+}
+.inputgroup:focus{
+    border-color: rgb(71, 46, 1);
+    background: #ffffff;
+}
+.inputgroup{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: solid rgb(226, 226, 226);
+    outline: none;
+    background:rgb(226, 226, 226);
+    transition: background 0.2s, border-color 0.2s;
+    margin-bottom: 2rem;
+}
+.tccheck{
+    size: 4rem;
+}
+
+.formbutton{
+    display: block;
+    outline: none;
+    background: rgba(237, 199, 183);
+    transition: background 0.2s, border-color 0.2s;
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--color-one);
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    
+}
+.title{
+    font-size: 5rem;
+}
+.formbutton:hover{
+    background: var(--color-primary-dark);
+}
+.formbutton:active{
+    transform: scale(0.98);
+}
+.form{
+    margin: 3rem;
+    transform: translateX(0.7rem);
+    size: 5rem;
+}
+
+.tc{
+    font-size:medium;
+}
+.inputgroup{
+    margin: 2rem;
+    margin-bottom: 3rem;
+    width: auto;
+    height: 4rem;
+    border-radius: 1rem;
+    
+    
+}.help, .about, .home, .login{
+    border:solid var(--color-primary-dark);
+    margin-left: 2rem;
+    width: 10rem;
+    height: 4rem;
+    transform:translateY(1.3rem);
+    background-color:var(--color-primary);
+    
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: var(--color-two);
+    border-radius: 0.5rem;
+    
+}
+
+.login{
+    margin-right: 20px;
+}
+.home:hover{
+    background-color:var(--color-primary-dark) ;
+}
+.act{
+    background-color:var(--color-primary-dark) ;
+}
+.about:hover{
+    background-color:var(--color-primary-dark) ;
+    
+}
+.login:hover{
+    background-color:var(--color-primary-dark) ;
+}
+.help:hover{
+    background-color:var(--color-primary-dark) ;
+}
+.home:active {
+    background:var(--color-primary-dark);
+    
+     outline: none;
+}
+.login:active {
+    background:var(--color-primary-dark);
+    
+     outline: none;
+}
+.about:active {
+    background:var(--color-primary-dark);
+     outline: none;
+}
+.help:active {
+    background:var(--color-primary-dark);
+     outline: none;
+}
+
+.menu{
+    
+    background-color: var(--color-primary);
+    
+    width: 100%;
+    height: 7rem;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+}
